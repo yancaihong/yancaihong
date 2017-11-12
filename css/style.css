@@ -464,11 +464,12 @@ article .container .row .video-container embed {
   margin-top: 0;
 }
 article .container .row blockquote {
-  font-style: italic;
+  font-style: normal;
   font-family: "Georgia", serif;
-  font-size: 1.2em;
-  padding: 0 30px 15px;
-  text-align: center;
+  font-size: 1em;
+  padding: 0 10px 10px;
+  text-align: left;
+  background-color: #eee;
 }
 article .container .row blockquote footer {
   border-top: none;

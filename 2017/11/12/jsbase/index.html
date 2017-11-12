@@ -10,6 +10,10 @@
 
     <!--Description-->
     
+        <meta name="description" content="关系运算比较运算，  &amp;gt;  &amp;gt;=  &amp;lt;  &amp;lt;=  ==  !=   六种，都返回布尔值（true/false）。
+隐式转换：默认都转为数字类型，再做比较，即调用 Number() 函数。
+特殊：(1) 如果比较的两个值都是字符串类型的，则按位比较每个字符的 unicode 编">
+    
 
     <!--Author-->
     
@@ -18,7 +22,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="彩虹博客"/>
+        <meta property="og:title" content="关系运算 和 逻辑运算"/>
     
 
     <!--Open Graph Description-->
@@ -29,7 +33,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
     
 
     <!--Page Cover-->
@@ -40,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>Archiv - 彩虹博客</title>
+    <title>关系运算 和 逻辑运算 - 彩虹博客</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -134,75 +138,78 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Archiv</h1>
+                <div class="post-heading">
+                    <h1>关系运算 和 逻辑运算</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2017-11-12
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/js基础/">#js基础</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2017/11/12/jsbase/">
-        <h1 class="post-title archive">
-            关系运算 和 逻辑运算
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2017-11-12
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2017/11/04/first/">
-        <h1 class="post-title archive">
-            在GitHub上部署Hexo博客
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2017-11-04
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h3 id="关系运算"><a href="#关系运算" class="headerlink" title="关系运算"></a>关系运算</h3><p>比较运算，  &gt;  &gt;=  &lt;  &lt;=  ==  !=   六种，都返回布尔值（true/false）。</p>
+<p>隐式转换：默认都转为数字类型，再做比较，即调用 Number() 函数。</p>
+<p>特殊：<br><blockquote><p>(1) 如果比较的两个值都是字符串类型的，则按位比较每个字符的 unicode 编号。<br>(2) 如果参与比较的值不能被转为数字类型，则用 NaN，NaN 不大于、不小于、不等于任何。NaN != 任意  返回 true。<br>(3) == null，null 不做隐式转换，在其他关系运算中，null 都转为 0。<br>(4) == undefined，undefined 隐式转换为 null，其余关系运算中，都转为 NaN。</p>
+</blockquote></p>
+<h3 id="逻辑运算"><a href="#逻辑运算" class="headerlink" title="逻辑运算"></a>逻辑运算</h3><p>&amp;&amp;（逻辑与，并且）  ||（逻辑或，或者）  !（非）  都返回布尔值（true/false）。</p>
+<p>在比较之前，默认将每个条件隐式转换为布尔类型，再做比较。</p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-                <div class="post-preview">
-    <a href="/2017/11/03/hello-world/">
-        <h1 class="post-title archive">
-            Hello World
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2017-11-03
-    </p>
-</div>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
             
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
